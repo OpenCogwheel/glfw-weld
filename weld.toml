@@ -1,0 +1,15 @@
+[project]
+name = "GLFW"
+type = "StaticLib"
+
+[lib]
+include_dir = "include"
+
+[files]
+cextensions = [".c"]
+
+[settings]
+toolset = "gcc"
+
+src_dir = "src"
+out_dir = "bin"
