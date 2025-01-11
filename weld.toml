@@ -13,3 +13,6 @@ toolset = "gcc"
 
 src_dir = "src"
 out_dir = "bin"
+
+[gnuc]
+cflags = ["-D_GLFW_X11"]
